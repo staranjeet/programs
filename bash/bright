@@ -1,0 +1,5 @@
+#!/bin/bash
+#My first script
+echo "Enter brightness level"
+read x
+xrandr  --output LVDS1 --brightness $x
